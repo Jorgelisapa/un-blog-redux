@@ -1,31 +1,39 @@
 import React, { Component } from 'react';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      usuarios: [
+        {
+          nombre: 'Jorge Salamanca',
+          correo: 'correo',
+          enlace: 'jorgesalamanca.com',
+        },
+        {
+          nombre: 'emtibi',
+          correo: 'hola@emtibi.com',
+          enlace: 'emtibi.com',
+        },
+      ]
+    }
+  }
 
-  ponerFilas = () => [
-    <tr>
-    <td>
-      Jorge Salamanca
-      </td>
-    <td>
-      jorgelisapa@gmail.com
-      </td>
-    <td>
-      jorgesalamanca.com
-    </td>
-  </tr>,
-  <tr>
-    <td>
-      emtibi
-      </td>
-    <td>
-      hola@emtibi.com
-      </td>
-    <td>
-      emtibi.com
-    </td>
-  </tr>,
-  ];
+  ponerFilas = () => (
+    this.state.usuarios.map((usuario) => (
+      <tr>
+        <td>
+          { usuario.nombre }
+        </td>
+        <td>
+          { usuario.correo }
+        </td>
+        <td>
+          { usuario.enlace }
+        </td>
+      </tr>
+    ))
+  );
 
   render() {
     return (
@@ -51,6 +59,6 @@ class App extends Component {
       </div>
     );
   }
-  }
+}
 
 export default App;
