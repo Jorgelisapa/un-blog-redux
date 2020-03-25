@@ -4,6 +4,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      usuarios: []
+    }
+  }
+
+  componentDidMount() {
+    this.setState({
       usuarios: [
         {
           nombre: 'Jorge Salamanca',
@@ -16,7 +22,7 @@ class App extends Component {
           enlace: 'emtibi.com',
         },
       ]
-    }
+    })
   }
 
   ponerFilas = () => (
@@ -36,6 +42,7 @@ class App extends Component {
   );
 
   render() {
+    console.log(this.state.usuarios)
     return (
       <div className='margen' >
         <table className='tabla' >
