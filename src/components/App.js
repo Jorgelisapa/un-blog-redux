@@ -1,61 +1,18 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      usuarios: []
-    }
-  }
+import Menu from './Menu'
+import Usuarios from './usuarios/index'
 
-  async componentDidMount() {
-    const respuesta = await axios.get('https://jsonplaceholder.typicode.com/users');
-    this.setState({
-      usuarios: respuesta.data
-    })
-  }
+const Tareas = () => <div>Tareas</div>
 
-  ponerFilas = () => (
-    this.state.usuarios.map((usuario) => (
-      <tr>
-        <td>
-          { usuario.name }
-        </td>
-        <td>
-          { usuario.email }
-        </td>
-        <td>
-          { usuario.website }
-        </td>
-      </tr>
-    ))
-  );
+const App = () => (
+  <BrowserRouter>
+    <Menu />
+    <Route exact path='/' component={ Usuarios } />
+    <Route exact path='/tareas' component={ Tareas } />
 
-  render() {
-    return (
-      <div className='margen' >
-        <table className='tabla' >
-          <thead>
-            <tr>
-              <th>
-                Nombre
-              </th>
-              <th>
-                Correo
-              </th>
-              <th>
-                Enlace
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            { this.ponerFilas() }
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-}
+  </BrowserRouter>
+);
 
 export default App;
