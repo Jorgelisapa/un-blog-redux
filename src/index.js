@@ -10,7 +10,7 @@ import reducers from './reducers';
 
 const store = createStore(
     reducers, //Todos los reducers
-    {}, //Estado inicial
+    {} //Estado inicial
  );
 
 ReactDOM.render(
@@ -19,4 +19,3 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
-
