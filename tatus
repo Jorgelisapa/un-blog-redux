@@ -1,0 +1,101 @@
+[33mcommit 7e0d3940ea22f0b8be2bd68b417ab3de6ca5ba40[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m)[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Sun Mar 29 19:21:53 2020 -0500
+
+    Aplicando try catch para manejo de errores - v21
+
+[33mcommit 81cf3d22332083e02dbacc7c96cafb19e99a75fb[m[33m ([m[1;32mteaching[m[33m)[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Sun Mar 29 18:45:23 2020 -0500
+
+    Archivos types: Para evitar error de tipado indesifrable en console - v20
+
+[33mcommit 51775c08e964778ce881006a0b6e4d5a7c14e550[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Sun Mar 29 18:30:42 2020 -0500
+
+    Aplicando Actions Creators y Redux Thunk para traer la información de usuarios - v16-17
+
+[33mcommit 21242f383b375c8b4b4dfe4d18e8d770de5a4182[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mexampleClass[m[33m)[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Sat Mar 28 16:40:29 2020 -0500
+
+    Aplicando Actions Creators y Redux Thunk para traer la información de usuarios - v16-17
+
+[33mcommit d27a974e93e1c986bf4cf92f7750828221aaf75d[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Fri Mar 27 20:18:26 2020 -0500
+
+    Conexion de los reducers a nuestro componente (usuarios) - v15
+
+[33mcommit ec0c13ca87e28a3856f4e76728418f9697369baa[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Fri Mar 27 16:05:00 2020 -0500
+
+    Creacion del store y dandole los reducers de usuarios a la App - v14
+
+[33mcommit 30cba4933837882a948d11531c8aa0a45b015442[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Wed Mar 25 16:49:20 2020 -0500
+
+    Creando pantalla principal de usuarios
+
+[33mcommit 6566a960c3e8bb408d4fb32eda3d21cedbe5abdf[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Tue Mar 24 21:49:44 2020 -0500
+
+    Trayendo usuarios de un servidor (jsonplaceholder) para noo tener que definirlos manualmente con manejo de promesas - v9
+
+[33mcommit e4a468817478a39ccfa4f0d1c18c05b51f69f91d[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Tue Mar 24 21:29:45 2020 -0500
+
+    Llamado a url de API con axioS y uso de de async await para llamada  asincrona - v8
+
+[33mcommit 2e60970656ef6b97ae91af193b44a7eb6a5d33b3[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Tue Mar 24 21:15:52 2020 -0500
+
+    Aplicando compoponentDidMount() - v8
+
+[33mcommit 1a9c58c4dd2bc119e16d06de6080a88cd484f8b8[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Thu Mar 19 14:14:14 2020 -0500
+
+    Dandole un estado a tabla de contenido por medio de un constructor para evitar uso de datos exactos - v7
+
+[33mcommit cdf2ce9a045f597caab234a74427dabb72a9f734[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Thu Mar 19 13:28:43 2020 -0500
+
+    Convirtiendo de stateLess Component a stateFull Component || functional component a class component - v7
+
+[33mcommit ddb8e3c37574298a512ce411affaa21bcf14625e[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Wed Mar 18 20:45:10 2020 -0500
+
+    Creada funcion de poner filas en la tabla de contenido - v6
+
+[33mcommit 3b0663d5757e01db4538ef8678504b756d53804e[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Wed Mar 18 20:22:48 2020 -0500
+
+    Aplicando estilos básicos a tabla de contenido - v5
+
+[33mcommit ffd4c84960634f37a046a074109346252ad9735b[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Wed Mar 18 19:58:46 2020 -0500
+
+    Creando tabla de contenido
+
+[33mcommit de61fe3462445e728a8c4e12aa7f522db8cc712f[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Wed Mar 18 19:20:24 2020 -0500
+
+    I am @jorgelisapa
+
+[33mcommit 5b8240a2e9f9f2a36992541c11e757f0a463ba57[m
+Author: Jorgelisapa <jorgelisapa@gmail.com>
+Date:   Wed Mar 18 17:36:55 2020 -0500
+
+    Initialize project using Create React App
